@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         // Update these with your specific Azure details
-        AZURE_TENANT_ID = 'c86fb52a-d57e-4969-9927-e0076d423274'
-        AZ_SUBSCRIPTION = 'c06686e2-d368-48c1-936d-cf7a2f342148'
+        AZURE_TENANT_ID = ''
+        AZ_SUBSCRIPTION = ''
         RES_GROUP       = 'myFunctionGroup' 
         FUNC_APP_NAME   = 'odd-even-api-test'
         git_Url="https://github.com/SudhirDevange/Python.git"
@@ -43,3 +43,4 @@ pipeline {
         }
     }
 }
+
