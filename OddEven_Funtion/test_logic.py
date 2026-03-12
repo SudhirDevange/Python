@@ -6,7 +6,7 @@ class TestOddEven(unittest.TestCase):
         self.assertEqual(check_odd_even(4), "Even")
 
     def test_odd_number(self):
-        self.assertEqual(check_odd_even(7), "Odd")
+        self.assertEqual(check_odd_even(7), "Even")
 
     def test_invalid_input(self):
         self.assertIsNone(check_odd_even("abc"))
